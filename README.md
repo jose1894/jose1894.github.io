@@ -22,7 +22,7 @@ Actualmente, me desempeño como **FullStack Developer Remoto en Upwork**, donde 
 
 | Backend & Lenguajes | Frontend & UI/UX | Bases de Datos & DevOps |
 | :--- | :--- | :--- |
-| (https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) **JavaScript** | ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) **Docker** |
+| ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) **JavaScript** | ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) **Docker** |
 | ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white) **Laravel** | ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white) **Vue** | ![GitHub](https://img.shields.io/badge/Git%20/%20GitHub-181717?logo=github&logoColor=white) **Git / GitHub** |
 | ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) **Node JS** | ![Livewire](https://img.shields.io/badge/Livewire-0088CC?logo=laravel&logoColor=white) **Livewire** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) **MySql Server** |
 | ![OOP](https://img.shields.io/badge/OOP-SOLID-4B5563) **OOP** (Principios SOLID) | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) HTML / CSS | ![MS SQL Server](https://img.shields.io/badge/MS%20SQL%20Server-CC2927?logo=microsoft%20sql%20server&logoColor=white) MS SQL Server 2000 |
