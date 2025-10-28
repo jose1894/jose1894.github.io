@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="refresh" content="0;url=/en/index.html" />
+    <script>
+        // Obtiene el idioma preferido del navegador
+        const lang = navigator.language || navigator.userLanguage;
+
+        // Verifica si el idioma es español o comienza con 'es' (ej: es-ES, es-CO)
+        if (lang.toLowerCase().startsWith('es')) {
+            // Redirige a la versión en español
+            window.location.replace("./es/index.html");
+        } else {
+            // Redirige por defecto a la versión en inglés (la opción más universal)
+            window.location.replace("./en/index.html");
+        }
+    </script>
+    <title>Redirigiendo a José Guerra's Portfolio...</title>
+</head>
+<body>
+    <p>Redirigiendo / Redirecting...</p>
+</body>
+</html>
