@@ -1,0 +1,92 @@
+/* Estilos base para el portafolio */
+:root{
+	--bg:#0f1724;
+	--card:#0b1220;
+	--muted:#94a3b8;
+	--accent:#06b6d4;
+	--accent-2:#7c3aed;
+	/* Nuevo degradado hero: colores pensados para alto contraste con fuente clara */
+	--hero-gradient-1: #071426; /* azul muy oscuro */
+	--hero-gradient-2: #0ea5a4; /* teal brillante */
+	--hero-gradient-3: #7c3aed; /* violeta intenso */
+	--text:#e6eef8;
+	--maxw:1100px;
+	--radius:10px;
+	--glass: rgba(255,255,255,0.03);
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+	margin:0;
+	font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+	background: linear-gradient(180deg,var(--bg), #08101a 80%);
+	color:var(--text);
+	-webkit-font-smoothing:antialiased;
+}
+.container{max-width:var(--maxw);margin:0 auto;padding:1rem}
+
+/* Header */
+.site-header{background:transparent;padding:1rem 0;position:sticky;top:0;z-index:30}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.brand h1{margin:0;font-size:1.25rem}
+.brand .role{margin:0;color:var(--muted);font-size:0.9rem}
+.nav-toggle{display:none;background:none;border:1px solid rgba(255,255,255,0.06);color:var(--text);padding:.5rem .75rem;border-radius:6px}
+.main-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:0.75rem}
+.main-nav a{color:var(--text);text-decoration:none;padding:.35rem .5rem;border-radius:6px}
+.main-nav a:hover{background:var(--glass)}
+
+/* Hero */
+.hero{padding:3rem 0; /* nuevo fondo degradado aplicado solo al hero */
+	background: linear-gradient(135deg, var(--hero-gradient-1) 0%, var(--hero-gradient-2) 50%, var(--hero-gradient-3) 100%);
+	border-radius: 12px;
+	box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+}
+.hero-inner{display:grid;grid-template-columns:1fr 320px;gap:2rem;align-items:start}
+.hero-text h2{margin:0;font-size:2rem;color:var(--text);text-shadow:0 2px 6px rgba(2,6,23,0.6)}
+.lead{color:rgba(230,238,248,0.92);line-height:1.5}
+.btn{display:inline-block;padding:.6rem 1rem;background:var(--accent);color:#012028;border-radius:8px;text-decoration:none;font-weight:600}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--text)}
+.contact-short{list-style:none;padding:0;margin:0;color:var(--muted)}
+.contact-short li{margin-bottom:.5rem}
+
+.profile{display:flex;justify-content:center;margin-bottom:1rem}
+.profile-photo{width:140px;height:140px;object-fit:cover;border-radius:50%;border:3px solid rgba(255,255,255,0.06);box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+
+/* Sections */
+.section{padding:2rem 0}
+.timeline .job{background:var(--card);padding:1rem;border-radius:8px;margin-bottom:1rem}
+.job-meta{color:var(--muted);margin:0 .25rem 0 .25rem}
+
+.projects-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
+.project-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.05));border-radius:8px;overflow:hidden;display:flex}
+.project-thumb{width:140px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:#001;padding:1rem;font-weight:700}
+.project-body{padding:1rem}
+.project-links a{color:var(--accent);text-decoration:none}
+
+.skills .skill{margin-bottom:.75rem}
+.skill-bar{background:rgba(255,255,255,0.05);height:12px;border-radius:999px;overflow:hidden}
+.skill-bar span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-2));}
+
+.contact-form{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.contact-form label{grid-column:1/-1;color:var(--muted);font-size:0.9rem}
+.contact-form input,.contact-form textarea{grid-column:1/-1;padding:.6rem;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text)}
+.contact-form input[type="email"]{grid-column:1/-1}
+.form-actions{grid-column:1/-1;display:flex;gap:.5rem}
+
+/* Footer */
+.site-footer{padding:2rem 0;color:var(--muted)}
+
+/* Responsive */
+@media (max-width:900px){
+	.hero-inner{grid-template-columns:1fr}
+	.projects-grid{grid-template-columns:1fr}
+	.contact-form{grid-template-columns:1fr}
+	.nav-toggle{display:inline-block}
+	.main-nav{display:none}
+	.main-nav.open{display:block;background:var(--card);position:absolute;right:1rem;top:64px;padding:0.5rem;border-radius:8px}
+	.main-nav ul{flex-direction:column}
+}
+
+/* small helper */
+.hidden{display:none}
+
