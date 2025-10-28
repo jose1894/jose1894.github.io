@@ -25,7 +25,7 @@ Actualmente, me desempeño como **FullStack Developer Remoto en Upwork**, donde 
 | ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) | ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) |
 | ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white) | ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white) | ![GitHub](https://img.shields.io/badge/Git%20/%20GitHub-181717?logo=github&logoColor=white) |
 | ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) | ![Livewire](https://img.shields.io/badge/Livewire-0088CC?logo=laravel&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) |
-| ![OOP](https://img.shields.io/badge/OOP-SOLID-4B5563) (Principios SOLID) | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) | ![MS SQL Server](https://img.shields.io/badge/MS%20SQL%20Server-CC2927?logo=microsoft%20sql%20server&logoColor=white) |
+| ![OOP](https://img.shields.io/badge/OOP-SOLID-4B5563) | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) | ![MS SQL Server](https://img.shields.io/badge/MS%20SQL%20Server-CC2927?logo=microsoft%20sql%20server&logoColor=white) |
 
 ### Servidores
 Cuento con experiencia en la administración de servidores VPS, Windows Server 2016 y conocimientos intermedios en Linux Ubuntu.
