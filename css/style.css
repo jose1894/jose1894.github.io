@@ -35,10 +35,25 @@ body{
 .main-nav a{color:var(--text);text-decoration:none;padding:.35rem .5rem;border-radius:6px}
 .main-nav a:hover{background:var(--glass)}
 
+/* Language switch (flag icons) */
+.lang-switch{display:flex;gap:.5rem;align-items:center}
+.lang-switch a{display:inline-flex;width:36px;height:24px;border-radius:4px;overflow:hidden;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,0.06);background:transparent}
+.lang-switch a svg{width:100%;height:100%;display:block}
+.lang-switch a:focus{outline:2px solid rgba(0,0,0,0.15);outline-offset:2px}
+.lang-switch a:hover{transform:translateY(-2px);transition:transform .15s ease}
+
+/* Right actions wrapper for nav + language */
+.right-actions{display:flex;align-items:center;gap:0.75rem;margin-left:auto}
+
+@media (max-width:900px){
+	/* Ensure flags stay visible on mobile and align after nav toggle */
+	.right-actions{gap:.5rem}
+	.lang-switch a{width:30px;height:20px}
+}
+
 /* Hero */
 .hero{padding:3rem 0; /* nuevo fondo degradado aplicado solo al hero */
 	background: linear-gradient(135deg, var(--hero-gradient-1) 0%, var(--hero-gradient-2) 50%, var(--hero-gradient-3) 100%);
-	border-radius: 12px;
 	box-shadow: 0 8px 30px rgba(2,6,23,0.6);
 }
 .hero-inner{display:grid;grid-template-columns:1fr 320px;gap:2rem;align-items:start}
@@ -46,7 +61,7 @@ body{
 .lead{color:rgba(230,238,248,0.92);line-height:1.5}
 .btn{display:inline-block;padding:.6rem 1rem;background:var(--accent);color:#012028;border-radius:8px;text-decoration:none;font-weight:600}
 .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--text)}
-.contact-short{list-style:none;padding:0;margin:0;color:var(--muted)}
+.contact-short{list-style:none;padding:0;margin:0;color:var(--text)}
 .contact-short li{margin-bottom:.5rem}
 
 .profile{display:flex;justify-content:center;margin-bottom:1rem}
