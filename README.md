@@ -1,5 +1,3 @@
-# joseguerra.github.io
-Portafolios de trabajo José Guerra
 # 👋 ¡Hola! Soy José Guerra
 
 ---
