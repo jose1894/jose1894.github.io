@@ -18,8 +18,6 @@ Actualmente, me desempeño como **FullStack Developer Remoto en Upwork**, donde 
 
 ## 🛠️ Habilidades y Tecnologías
 
-*Tip: Utiliza insignias (Badges) de tecnología (como las de Shields.io) en estas secciones para una visualización más rápida y profesional.*
-
 | Backend & Lenguajes | Frontend & UI/UX | Bases de Datos & DevOps |
 | :--- | :--- | :--- |
 | ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) | ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) |
