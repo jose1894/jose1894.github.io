@@ -22,7 +22,7 @@ Portafolios de trabajo José Guerra
 
 | Backend & Lenguajes | Frontend & UI/UX | Bases de Datos & DevOps |
 | :--- | :--- | :--- |
-| [cite_start]**PHP** [cite: 50] | [cite_start]**Javascript** [cite: 41] | [cite_start]**Docker** [cite: 44] |
+| > **PHP** [cite: 50] | [cite_start]**Javascript** [cite: 41] | [cite_start]**Docker** [cite: 44] |
 | [cite_start]**Laravel** [cite: 47] | [cite_start]**Vue** [cite: 49] | [cite_start]**Git / GitHub** [cite: 45] |
 | [cite_start]**Node JS** [cite: 46] | [cite_start]**Livewire** [cite: 48] | [cite_start]MySql Server [cite: 7] |
 | [cite_start]**OOP** (Principios SOLID) [cite: 51, 53] | [cite_start]HTML / CSS [cite: 42, 43] | [cite_start]MS SQL Server 2000 [cite: 7] |
