@@ -1,54 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>José Guerra — Portfolio (EN)</title>
-	<link rel="stylesheet" href="../css/style.css">
-	<meta name="description" content="Portfolio and CV of José Guerra - English version.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>José Guerra — Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <meta name="description" content="Portfolio and CV of José Guerra — Full Stack Developer. Based on the Spanish site, translated into English.">
 </head>
 <body>
-	<header class="site-header">
-		<div class="container header-inner">
-					<div class="brand">
-						<h1>José Guerra</h1>
-						<p class="role">FullStack Developer</p>
-					</div>
-					<div class="right-actions">
-						<nav class="main-nav">
-							<!-- placeholder nav for alignment -->
-						</nav>
-						<div class="lang-switch">
-							<a href="/es/index.html" aria-label="Español — Ir a versión en español" title="Español">
-								<svg viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
-									<rect width="3" height="2" fill="#C60B1E"/>
-									<rect y="0.5" width="3" height="1" fill="#FFC400"/>
-									<rect width="3" height="0.5" fill="#C60B1E"/>
-								</svg>
-							</a>
-							<a href="/en/index.html" aria-label="English — Go to English version" title="English">
-								<svg viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
-									<rect width="3" height="2" fill="#b22234"/>
-									<g fill="#fff">
-										<rect y="0.25" width="3" height="0.25"/>
-										<rect y="0.75" width="3" height="0.25"/>
-										<rect y="1.25" width="3" height="0.25"/>
-										<rect y="1.75" width="3" height="0.25"/>
-									</g>
-									<rect width="1.2" height="1.05" fill="#3c3b6e"/>
-								</svg>
-							</a>
-						</div>
-					</div>
-		</div>
-	</header>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>José Guerra</h1>
+        <p class="role">Web Developer • Full‑Stack</p>
+      </div>
+      <div class="right-actions">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+        <nav id="main-nav" class="main-nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+          </ul>
+        </nav>
+        <div class="lang-switch" aria-hidden="false">
+          <a href="/es/index.html" aria-label="Español — Go to Spanish version" title="Español">
+            <svg viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+              <rect width="3" height="2" fill="#C60B1E"/>
+              <rect y="0.5" width="3" height="1" fill="#FFC400"/>
+              <rect width="3" height="0.5" fill="#C60B1E"/>
+            </svg>
+          </a>
+          <a href="/en/index.html" aria-label="English — You are on English" title="English">
+            <svg viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+              <rect width="3" height="2" fill="#b22234"/>
+              <g fill="#fff">
+                <rect y="0.25" width="3" height="0.25"/>
+                <rect y="0.75" width="3" height="0.25"/>
+                <rect y="1.25" width="3" height="0.25"/>
+                <rect y="1.75" width="3" height="0.25"/>
+              </g>
+              <rect width="1.2" height="1.05" fill="#3c3b6e"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
 
-	<main class="container">
-		<h2>English version — coming soon</h2>
-		<p>This is the English entry page. The full English portfolio can be implemented here. Use the flags above to switch languages.</p>
-	</main>
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>👋 Hi — I'm José Guerra</h2>
+          <h3>💻 Computer Engineer | Full‑Stack Developer (Laravel & Vue.js)</h3>
+          <p class="lead">Full Stack developer with over 8 years of experience across the full web development lifecycle. Specialized in backend (Laravel, CodeIgniter) and frontend (Vue.js, Livewire). I design and implement RESTful APIs, optimize data models and deploy applications on VPS/NGINX/Docker. I handle projects end‑to‑end: analysis, development, deployment and maintenance.</p>
+          <p class="actions">
+            <a class="btn" href="#projects">See projects</a>
+            <a class="btn ghost" href="../es/cv_ats-es-nov-2025.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
+          </p>
+        </div>
+        <aside class="hero-aside">
+          <div class="profile">
+            <img class="profile-photo" src="../img/jose1894.jpg" alt="Photo of José Guerra">
+          </div>
+          <ul class="contact-short">
+            <li><strong>Email:</strong> <a href="mailto:jose1894@gmail.com">jose1894@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+584127845624">+58 412 784 56 24</a></li>
+            <li><strong>Location:</strong> La Isabelica, Valencia, Carabobo, Venezuela</li>
+            <li class="social">
+              <a href="https://github.com/jose1894" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+              <a href="https://linkedin.com/in/jose-guerra-21807651" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
 
-	<script src="../js/script.js" defer></script>
+    <section id="about" class="section container">
+      <h3>About</h3>
+      <p>Full Stack developer experienced in the full web cycle: analysis, design, implementation and deployment. I work with Laravel and CodeIgniter on the backend and Vue.js and Livewire on the frontend. I convert Figma designs into fast, accessible UI, build well‑documented RESTful APIs, optimize data models and deploy scalable infrastructure using VPS, NGINX and Docker.</p>
+    </section>
+
+    <section id="experience" class="section container">
+      <h3>Experience</h3>
+      <div class="timeline">
+        <article class="job">
+          <h4>Sentientinfo — FullStack Developer</h4>
+          <p class="job-meta">April 2024 – May 2025</p>
+          <ul>
+            <li>Developed and maintained web projects focusing on backend optimization and business logic.</li>
+            <li>Implemented a customer management system in CodeIgniter for chatbot subscription management.</li>
+            <li>Built an surveys administration platform using Laravel and Livewire; participated in large‑scale backend projects (data modeling, optimization and RESTful API design).</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h4>Freelance — FullStack Web Developer</h4>
+          <p class="job-meta">November 2019 – December 2024 · Lima, Peru (remote)</p>
+          <ul>
+            <li>Consultant and independent developer: modular billing and inventory systems for SMEs.</li>
+            <li>Built and managed e‑commerce platforms (e.g., todoenroca.com, euroricambiodiesel.com, promarketlatino.com, vidaloestodo.com).</li>
+            <li>Stack: Laravel, CodeIgniter, Vue.js, HTML, CSS, JavaScript. Infrastructure: VPS, NGINX, MySQL, Docker. Version control with Git/GitHub.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h4>Papora — Frontend Developer (part‑time)</h4>
+          <p class="job-meta">October 2021 – July 2023</p>
+          <ul>
+            <li>Developed interactive interfaces for a language learning platform.</li>
+            <li>Converted Figma designs to production code ensuring visual fidelity and performance.</li>
+            <li>Technologies: HTML5, CSS3, Vanilla JavaScript.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h4>NovoPles C.A. — PHP Web Developer</h4>
+          <p class="job-meta">September 2015 – January 2018</p>
+          <ul>
+            <li>Developed and fixed modules for administrative systems; integrated business processes.</li>
+            <li>Documentation of improvements and internal user support.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h4>Freelancer — Local Projects</h4>
+          <p class="job-meta">August 2014 – January 2018</p>
+          <ul>
+            <li>Built systems for local institutions (incident control for Valencia Fire Department, request management for IMA).</li>
+            <li>Technologies: PHP, MySQL, HTML, CSS, JavaScript, AJAX, JSON, jQuery.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h4>PGFA, Perales, Pistone & Asociados — PHP Web Developer</h4>
+          <p class="job-meta">March 2015 – September 2015</p>
+          <ul>
+            <li>Developed a document management system for audits (Yii, PHP, Bootstrap).</li>
+            <li>Implemented RBAC and automated reporting features.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h3>🚀 Featured Projects</h3>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-thumb" aria-hidden="true">TODOENROCA</div>
+          <div class="project-body">
+            <h4>Todoenroca — E‑commerce</h4>
+            <p class="muted">Nov 2022 — Nov 2023 · Contractor</p>
+            <p>E‑commerce for sale of spare parts for electrical appliances. Role: Backend Developer — data modeling, payment gateway integration, APIs and production deployment.</p>
+            <p class="project-meta">Skills: CSS · JSON · HTML · MySQL · Docker · Laravel</p>
+            <p class="project-links"><a href="https://www.todoenroca.com" target="_blank" rel="noopener">Visit</a> · <a href="#">Case / Code</a></p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb" aria-hidden="true">VIDALOESTODO</div>
+          <div class="project-body">
+            <h4>Vidaloestodo — E‑commerce (supermarket)</h4>
+            <p class="muted">Feb 2023 — Oct 2023 · Contractor</p>
+            <p>E‑commerce for a supermarket with cart and inventory management. Role: Backend Developer and VPS deployment.</p>
+            <p class="project-meta">Skills: MySQL · PHP · VPS · Docker · Laravel</p>
+            <p class="project-links"><a href="https://www.vidaloestodo.com" target="_blank" rel="noopener">Visit</a> · <a href="#">Case / Code</a></p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb" aria-hidden="true">EURORICAMBI</div>
+          <div class="project-body">
+            <h4>EuroricambiDiesel — E‑commerce (heavy parts)</h4>
+            <p class="muted">Oct 2022 — Mar 2023 · Contractor</p>
+            <p>Custom store for spare parts for heavy vehicles. Role: Backend Developer — catalog integration, attribute search and query optimization.</p>
+            <p class="project-meta">Skills: CSS · HTML5 · MySQL · VPS · Docker · Laravel</p>
+            <p class="project-links"><a href="https://www.euroricambidiesel.com" target="_blank" rel="noopener">Visit</a> · <a href="#">Case / Code</a></p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb" aria-hidden="true">PROMARKET</div>
+          <div class="project-body">
+            <h4>PromarketLatino — Backend & DevOps improvements</h4>
+            <p class="muted">Feb 2021 — Sep 2024 · Contractor</p>
+            <p>Backend improvements and adjustments; RESTful API development and consumption; Docker containerization to keep the site up‑to‑date; repository creation and version maintenance on GitHub.</p>
+            <p class="project-meta">Skills: DevOps (Docker, NGINX, VPS, Git) · Vue.js / JavaScript · HTML / CSS · Laravel</p>
+            <p class="project-links"><a href="https://promarketlatino.com" target="_blank" rel="noopener">Visit</a> · <a href="#">Case / Code</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <h3>🛠️ Skills & Technologies</h3>
+      <div class="skills">
+        <div class="skill">
+          <label>Laravel / PHP</label>
+          <div class="skill-bar" data-level="90"><span style="width:90%"></span></div>
+        </div>
+        <div class="skill">
+          <label>CodeIgniter</label>
+          <div class="skill-bar" data-level="80"><span style="width:80%"></span></div>
+        </div>
+        <div class="skill">
+          <label>Vue.js / Livewire</label>
+          <div class="skill-bar" data-level="85"><span style="width:85%"></span></div>
+        </div>
+        <div class="skill">
+          <label>JavaScript / Node.js</label>
+          <div class="skill-bar" data-level="80"><span style="width:80%"></span></div>
+        </div>
+        <div class="skill">
+          <label>Databases (MySQL / MS SQL)</label>
+          <div class="skill-bar" data-level="75"><span style="width:75%"></span></div>
+        </div>
+        <div class="skill">
+          <label>DevOps / Infrastructure (VPS, NGINX, Docker)</label>
+          <div class="skill-bar" data-level="70"><span style="width:70%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section container">
+      <h3>Education</h3>
+      <ul>
+        <li><strong>Computer Engineering</strong> — Instituto Universitario de Tecnología de Valencia · 2013 – 2016</li>
+        <li><strong>Higher Technical Degree in Computer Science</strong> — Instituto Universitario de Tecnología de Valencia · 2002 – 2008</li>
+      </ul>
+
+      <h4>Certifications</h4>
+      <ul>
+        <li>Principles of SOLID — Udemy</li>
+        <li>Shaping up with Angular.js — Certificate of Completion</li>
+        <li>HTML Fundamentals — Certificate of Completion</li>
+        <li>JavaScript Basics — Certificate of Completion</li>
+      </ul>
+
+      <h4>Languages</h4>
+      <ul>
+        <li>Spanish — Native</li>
+        <li>English — Intermediate (Technical communication)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> José Guerra</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js" defer></script>
 </body>
 </html>
-

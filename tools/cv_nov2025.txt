@@ -1,0 +1,68 @@
+JOSÉ GUERRA
+Full Stack Developer | Ingeniero en Informática
+Tel: +58 412 784 56 24 | Email:jose1894@gmail.com| Valencia, Carabobo, Venezuela
+LinkedIn: linkedin.com/in/jose-guerra-21807651
+Resumen profesional
+Desarrollador Full Stack con más de 8 años de experiencia en el ciclo completo de desarrollo web.
+Especializado en backend conLaravel, CodeIgnitery en frontend conVue.js, Livewirey tecno-
+logías web estándar (HTML5, CSS3, JavaScript). Experiencia en diseño de APIs RESTful, modelado
+de datos, optimización de bases de datos y despliegue de infraestructura (VPS, NGINX, Docker).
+Capacidad para asumir proyectos end-to-end: diseño, desarrollo, despliegue y mantenimiento.
+Experiencia laboral
+SentientinfoAbril 2024 – Mayo 2025
+FullStack Developer
+Desarrollo y mantenimiento de proyectos web aplicando metodologías Full Stack, con foco en opti-
+mización del backend y lógica de negocio.
+Implementación de un sistema de gestión de clientes en CodeIgniter para administración de suscrip-
+ciones de chatbot.
+Desarrollo con Laravel y Livewire: plataforma de administración de encuestas; participación en
+proyectos backend a gran escala (modelado de datos, optimización y diseño de APIs RESTful).
+Freelance — FullStack Web DeveloperNoviembre 2019 – Diciembre 2024
+Consultor y desarrollador independiente (Lima, Perú)
+Desarrollo de sistemas modulares de facturación e inventario para PyMEs.
+Lanzamiento y gestión de plataformas e-commerce (ej.: todoenroca.com, euroricambiodiesel.com,
+promarketlatino.com, vidaloestodo.com).
+Stack: Laravel, CodeIgniter, Vue.js, HTML, CSS, JavaScript. Administración de infraestructura:
+VPS, NGINX, MySQL; contenedores con Docker; control de versiones con Git/GitHub.
+PaporaOctubre 2021 – Julio 2023
+Programador Frontend (parcial)
+Desarrollo de interfaces interactivas para plataforma de aprendizaje de idiomas.
+Conversión de diseños Figma a código, asegurando fidelidad visual y rendimiento.
+Tecnologías: HTML5, CSS3, JavaScript (Vanilla).
+NovoPles C.A.Septiembre 2015 – Enero 2018
+Desarrollador Web PHP
+Desarrollo y corrección de módulos para sistemas administrativos.
+
+Documentación de mejoras e integración con procesos de negocio.
+Freelancer (proyectos locales)Agosto 2014 – Enero 2018
+Desarrollador Web PHP
+Desarrollo de sistemas para instituciones locales (control de incidentes Bomberos de Valencia, gestión
+de solicitudes para IMA).
+Tecnologías: PHP, MySQL, HTML, CSS, JavaScript, AJAX, JSON, jQuery.
+PGFA, Perales, Pistone & AsociadosMarzo 2015 – Septiembre 2015
+Desarrollador Web PHP
+Desarrollo de sistema de administración documental para auditorías (Yii, PHP, Bootstrap, jQuery).
+Implementación de RBAC y funcionalidades de generación de informes.
+Educación
+Instituto Universitario de Tecnología de Valencia
+Ingeniero en Informática 2013 – 2016
+Instituto Universitario de Tecnología de Valencia
+Técnico Superior Universitario en Informática 2002 – 2008
+Habilidades técnicas
+Lenguajes / Frameworks: PHP, Laravel, CodeIgniter, Node.js, Vue.js, Livewire, JavaScript (Va-
+nilla)
+Web / Frontend: HTML5, CSS3, responsive design, UI implementation desde Figma
+Bases de datos: MySQL, MS SQL Server; modelado y optimización
+DevOps / Infraestructura: VPS, NGINX, Docker, despliegue continuo
+Control de versiones & herramientas: Git, GitHub, documentación técnica, APIs RESTful
+Principios: OOP, SOLID, buenas prácticas de arquitectura
+Cursos y certificaciones
+Principios SOLID – Udemy (certificado)
+Shaping up with Angular.js – (Certificate of Completion)
+HTML Fundamentals – (Certificate of Completion)
+JavaScript Basics – (Certificate of Completion)
+Idiomas
+Español: Nativo
+Inglés: Intermedio (Comunicación técnica)
+Referencias
+Disponible a solicitud.
