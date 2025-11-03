@@ -30,8 +30,6 @@ Cuento con experiencia en la administración de servidores VPS, Windows Server 2
 
 ## 🚀 Proyectos Destacados (Pinéalos en tu Perfil)
 
-*Asegúrate de que cada uno de estos proyectos esté en un repositorio separado y cuente con un `README.md` detallado.*
-
 | Proyecto (Ejemplo de Enfoque) | Descripción | Tecnologías Clave |
 | :--- | :--- | :--- |
 | **Sistemas Administrativos** | Desarrollo de sistemas para control de inventario, ventas, compras, emisión de facturas y guías de remisión. | Laravel, MySQL, HTML/CSS |
